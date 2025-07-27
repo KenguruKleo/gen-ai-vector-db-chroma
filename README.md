@@ -7,3 +7,14 @@ Activate VENV
 ```
 source venv/bin/activate
 ```
+
+Install packages
+```
+pip install -r requirements.txt
+```
+
+Update requirements.txt
+
+```
+pip freeze > requirements.txt
+```
